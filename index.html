@@ -151,6 +151,84 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-java课程笔记191029" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/29/java%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0191029/">java课程笔记191029</a>
+    </h1>
+  
+
+        
+        <a href="/2019/10/29/java%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0191029/" class="archive-article-date">
+  	<time datetime="2019-10-29T07:48:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="JSP和Servlet的区别"><a href="#JSP和Servlet的区别" class="headerlink" title="JSP和Servlet的区别"></a>JSP和Servlet的区别</h1><h2 id="相同点："><a href="#相同点：" class="headerlink" title="相同点："></a>相同点：</h2><ul>
+<li>1、处理后台逻辑，作为MVC控制。</li>
+<li>2、九个内置对象；（request、response、session、application、page、out、config、pageContext、exception）</li>
+<li>3、四种作用域包括 page&lt;grequest/response&lt;session&lt;application</li>
+</ul>
+<p>page.setAttribute(“usename”,”hua”);<br /><br>String id = page.getAttribute(“usename”);//仅限于当前页面</p>
+<p>request.setAttribute(“usename”,”hua”);<br /><br>String id = request.getAttribute(“usename”);//可以跨页面去传递</p>
+<p>session.setAttribute(“usename”,”hua”);<br /><br>String id =session.getAttribute(“usename”);//浏览器关闭，数据清空</p>
+<p>application.setAttribute(“usename”,”hua”);<br /><br>String id =application.getAttribute(“usename”);//数据一直存在,</p>
+<ul>
+<li>4、都可以使用Java语言<h2 id="不同点："><a href="#不同点：" class="headerlink" title="不同点："></a>不同点：</h2></li>
+<li>1、SP可以作为前端显示的页面，也可以作为后台；Servlet只能作为后台控制；</li>
+<li>2、JSP常用作小型项目，Servlet常用作框架类的大型项目；</li>
+<li>3、JSP可内嵌html、EL、JSTL和Java；Servlet只能用于Java；</li>
+<li>4、SP 控制不需要项目中去注册；Servlet必须去注册（web.xml/注解）</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/10/29/java%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0191029/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-java课程191028" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
